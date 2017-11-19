@@ -5,8 +5,8 @@ import logging
 import requests
 from bs4 import BeautifulSoup
 
+logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger('site-map-generator')
-logger.setLevel(logging.INFO)
 
 
 class GenerateSiteMap:
